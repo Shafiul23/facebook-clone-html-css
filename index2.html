@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+</head>
+
+<body>
+    <header>
+        <div class="header-flex-container"></div>
+        <h1 style="color: white">DFA Learn HTML/CSS
+            <form action=".forms.html">
+                <input type="email" name="email" placeholder="Enter email...">
+                <input type="password" name="password" placeholder="Enter password...">
+                <input type="submit" value="Login">
+                <link rel="stylesheet" href="styles.css">
+            </form>
+        </h1>
+        </div>
+        <hr>
+    </header>
+    <h2>Create an account </h2>
+    <h3>It's free and always will be</h3>
+    <form action="./forms.html">
+        <input type="text" name="firstName" placeholder="First Name">
+        <input type="text" name="lastName" placeholder="Last Name">
+        <br>
+        <input type="email" name="email" placeholder="Email">
+        <br>
+        <input type="tel" name="mobileNo" pattern="07+[0-9]{9}" required placeholder="Mobile number">
+        <br>
+        <input type="password" name="password" placeholder="New Password">
+        <br>
+        <fieldset>
+            <legend>Birthday</legend>
+            <label for="day">Day:</label>
+            <select name="day" id="day"></select>
+            <label for="month">Month:</label>
+            <select name="month" id="month"></select>
+            <label for="year">Year:</label>
+            <select name="year" id="year"></select>
+            <br>
+            <label for="female">Female: </label>
+            <input type="radio" name="gender" value="female">
+            <label for="male">Male:</label>
+            <input type="radio" name="gender" value="male">
+        </fieldset>
+        <br>
+        <p>By clicking Sign Up, you agree to our Terms, Data Policy and Cookie Policy. You may receive SMS notifications
+            from us
+            and can opt out at any time.
+            <link rel="stylesheet" href="styles.css">
+        </p>
+        <br>
+        <input type="submit" value="Sign Up">
+    </form>
+</body>
+
+</html>

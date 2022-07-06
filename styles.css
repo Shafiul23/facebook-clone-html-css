@@ -1,0 +1,59 @@
+body {
+    background-color: rgb(233, 235, 238);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+    background-color: rgb(66, 88, 147);
+    color: white;
+    padding: 1em;
+}
+
+/* input {} */
+
+.header-flex-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.main-flex-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+input {
+    margin: 0.25em;
+    border-radius: 5px;
+    padding: 0.45em
+}
+
+#sign-up {
+    background-color: rgb(100, 138, 77);
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+    padding-left: 2em;
+    padding-right: 2em;
+    color: white;
+    border-radius: 5px;
+    border-left-color: rgb(100, 138, 77);
+    border-right-color: rgb(100, 138, 77);
+    border-top-color: rgb(100, 138, 77);
+    border-bottom-color: rgb(100, 138, 77);
+    font-size: x-large;
+
+}
+
+fieldset {
+    border: 0 none;
+    padding: 0.2em;
+}
+
+p {
+    color: grey;
+}
